@@ -10,7 +10,7 @@ Fork or clone the project and then do `npm install` to install the dependency an
 
 # Licence
 
-MIT Licenced.
+[MIT Licenced](./LICENCE).
 
 # Suggestion
 
