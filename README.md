@@ -1,6 +1,8 @@
 # rHangout
 
-A desktop client for Google Hangout created using atom-electron (still chrome) to give you a native application like behaviour.
+A desktop client for Google Hangout created using atom-electron to give you a nodejs native application.
+
+This is a nodejs app, uses [atom-electron](http://electron.atom.io/) and [google-api-nodejs-client](https://github.com/google/google-api-nodejs-client).
 
 # Contribute
 
