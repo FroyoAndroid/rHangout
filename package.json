@@ -4,7 +4,8 @@
   "description": "Desktop client for google's Hangout.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/electron ./"
   },
   "keywords": [
     "hangout",
@@ -17,7 +18,7 @@
   "author": "raks437",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^0.4.1",
-    "googleapis": "^2.0.5"
+    "googleapis": "^2.0.5",
+    "electron-prebuilt": "^0.27.2"
   }
 }
