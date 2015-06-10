@@ -3,20 +3,24 @@
   "version": "0.1.0",
   "homepage": "https://github.com/raks437/rHangout",
   "authors": [
-    "Rakesh Sharma <raks437@gmail.com>"
+    "Rakesh Sharma (raks437)"
   ],
   "description": "A desktop client for Google Hangout.",
   "main": "main.js",
   "keywords": [
-    "google+",
-    "hangout"
+    "hangout",
+    "google",
+    "chat",
+    "video",
+    "call"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
     "polymer": "~1.0.3"

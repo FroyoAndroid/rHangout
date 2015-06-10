@@ -13,7 +13,8 @@ app.on('window-all-closed', function(){
 	if(process.platform != 'darwin'){
 		app.quit();
 	}
-});
+});bower -v
+
 
 // This method will be called when Electron has done everything
 // initialization and ready for creating browser windows.
@@ -22,7 +23,7 @@ app.on('ready', function(){
 	mainWindow = new BrowserWindow({width: 400, height: 600});
 
 	// and load the index.html of the app.
-	mainWindow.loadUrl('file://' + __dirname + 'views/startView/start.html');
+	mainWindow.loadUrl('file://' + __dirname + 'app/html/startView/start.html');
 
 	// Emitted when the window is closed.
 	mainWindow.on('closed', function() {
